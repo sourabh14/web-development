@@ -1,0 +1,113 @@
+<html>
+	<head>
+		<title> Title </title>
+		<style>
+			.city {
+				background-color: tomato;
+				color: white;
+				border: 2px solid black;
+				margin: 20px;
+				padding: 20px;
+			}
+			#myHeader {
+				background-color: lightblue;
+				color: black;
+				padding: 40px;
+				text-align: center;
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1> Heading </h1>
+		<p> A paragraph </p>
+
+		<!-- <div> and <span> -->
+		<div> Div Element 1 </div>
+		<div> Div Element 2 </div>
+
+		<br>
+
+		<span> Span Element 1 </span>
+		<span> Span Element 2 </span>
+
+		<!-- <div> example - to style a block of content -->
+		<div style="background-color:black; color:white; padding:20px;">
+			<h2>London</h2>
+			<p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+		</div>
+
+		<!-- <span> example - to style part of text -->
+		<p> This is a paragraph depicting span element. 
+			The next word will be <span style="background-color:grey; color:blue"> blue </span> text with grey background.
+			The last line of paragraph 
+		</p>
+		<br> <br>
+
+		<!-- Class example -->
+		<div class="city">
+			<h2> City 1 </h2>
+			<p> Delhi is the political capital of India </p>
+		</div>
+
+		<div class="city">
+			<h2> City 2 </h2>
+			<p> Mumbai is the financial capital of India </p>
+		</div>
+		<br> <br>
+
+		<!-- Id example -->
+		<h2 id="myHeader"> This is my header </h2> 
+
+		<!-- Iframe example -->	    
+		<iframe src="demo_iframe.htm" height="200" width="300" title="Iframe Example">
+	    </iframe>
+
+	</body>
+</html>
+
+<!--
+	- Block and Inline elements
+		Every HTML element has a default display value, depending on what type of element it is. There are two display values: block and inline.
+
+		Block-level Elements
+			- It always starts on a new line.
+			- It always takes up the full width available (stretches out to the left and right as far as it can).
+			- It has a top and a bottom margin, whereas an inline element does not.
+			- The <div> element is a block-level element.
+			- Other eg: <h1>-<h6>, <ol>, <li>, <table>, <header>, <footer>
+
+		Inline Elements
+			- It does not start on a new line.
+			- It only takes up as much width as necessary.
+			- This is a <span> element inside a paragraph.
+
+		<div> Element
+			- Often used as a container for other HTML elements.
+			- It has no required attributes, but style, class and id are common.
+			- When used together with CSS, the <div> element can be used to style blocks of content:
+
+		<span> Element
+			- It is an inline container used to mark up a part of a text, or a part of a document.
+			- It has no required attributes, but style, class and id are common.
+			- When used together with CSS, the <span> element can be used to style parts of the text:
+			
+		class attribute
+			- It is used to specify a class for an HTML element. Multiple HTML elements can share the same class.
+			- It is often used to point to a class name in a style sheet. It can also be used by a JavaScript to access and manipulate elements with the specific class name.
+
+		id attribute
+			- id attribute is used to specify a unique id for an HTML element. You cannot have more than one element with the same id 
+			- The syntax for id is: write a hash character (#), followed by an id name. Then, define the CSS properties within curly braces {}.
+			- Id can be used for bookmark link (explained earlier)
+
+		Iframe
+			- An HTML iframe is used to display a web page within a web page.
+			- The ” iframe ” tag defines a rectangular region within the document in which the browser can display a separate document, including scrollbars and borders. 
+			- An inline frame is used to embed another document within the current HTML document
+
+
+
+
+
+-->
