@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			img.zindx {
+			  position: absolute;
+			  z-index: -1;
+			}
+
+			p.zindx {
+				font-size: 30px;
+			}
+
+			img.float {
+				float: right;
+			}
+
+			div.overflow {
+			  background-color: LightGrey;
+			  width: 200px;
+			  height: 100px;
+			  border: 1px dotted black;
+			  overflow: scroll;
+			}
+
+			.div1 {
+				float: left;
+				margin: 10px;
+				padding: 40px;
+				background-color: purple;
+			}
+			.div2 {
+				float: left;
+				margin: 10px;
+				padding: 40px;
+				background-color: lightGreen;
+			}
+			.div3 {
+				float: left;
+				margin: 10px;
+				padding: 40px;
+				background-color: tomato;
+			}
+			.shimlaImages {
+				float: left;
+				margin: 20px;
+				height: 200px;
+				width: 200px;
+			}
+			.navMenu {
+				float: left;
+				height: 100px;
+				background-color: grey;
+			}
+			.menuLinks {
+				background-color: red;
+				padding: 100px;
+			}
+		</style>
+		
+	</head>
+	<body>
+		<!-- z-index: moving image in background of an element -->
+		<img class="zindx" src="flower.jpeg"> 
+
+		<p class="zindx"> This is a text above flower image </p>
+
+		<br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+
+		<!-- text overflow and scroll -->
+		<div class="overflow">You can use the overflow property when you want to have better control of the layout. The overflow property specifies what happens if content overflows an element's box.</div>
+
+		<!-- float -->
+		<p> 
+			<img class="float" src="google-image.png"> 
+			The google image floats on right of the text.
+			<br> <br>
+			Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, a search engine, cloud computing, software, and hardware. It is considered one of the Big Five companies in the American information technology industry, along with Amazon, Apple, Meta (Facebook) and Microsoft.[10]
+			<br> <br>
+			Google was founded on September 4, 1998, by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University in California. Together they own about 14% of its publicly-listed shares and control 56% of the stockholder voting power through super-voting stock. The company went public via an initial public offering (IPO) in 2004. In 2015, Google was reorganized as a wholly-owned subsidiary of Alphabet Inc.. Google is Alphabet's largest subsidiary and is a holding company for Alphabet's Internet properties and interests. Sundar Pichai was appointed CEO of Google on October 24, 2015, replacing Larry Page, who became the CEO of Alphabet. On December 3, 2019, Pichai also became the CEO of Alphabet. 
+		</p>
+
+		<!-- float side by side -->
+
+		<div class="div1"> Div 1 </div>
+		<div class="div2"> Div 2 </div>
+		<div class="div3"> Div 3 </div>
+
+		<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
+
+		<h3> Shimla Images - side by side </h3>
+		<img src="shimla1.jpg" class="shimlaImages">
+		<img src="shimla2.jpeg" class="shimlaImages">
+		<img src="shimla3.jpeg" class="shimlaImages">
+		<img src="shimla4.png" class="shimlaImages">
+		<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
+
+	
+
+	</body>
+</html>
+
+<!--
+
+		Z-Index
+		- When elements are positioned, they can overlap other elements.	
+		- The z-index property specifies the stack order of an element (which element should be placed in front of, or behind, the others).
+		- z-index only works on positioned elements (position: absolute, position: relative, position: fixed, or position: sticky)
+
+	Overflow
+		- overflow: scroll. Setting the value to scroll, the overflow is clipped and a scrollbar is added to scroll inside the box
+
+	Float
+		- The float property is used for positioning and formatting content e.g. let an image float left to the text in a container.
+		In its simplest use, the float property can be used to wrap text around images.
+
+
+-->

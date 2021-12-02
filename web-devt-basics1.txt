@@ -1,2 +1,56 @@
 Web Development
+----------------
+- Web development refers to the building, creating, and maintaining of websites. 
+- It includes aspects such as web design, web publishing, web programming, and database management.
+- Web Development can be classified into two ways:
+	- Frontend Development
+	- Backend Development
 
+
+Frontend Development
+---------------------
+- The part of a website that the user interacts directly is termed as front end. It is also referred to as the ‘client side’ of the application.
+
+- HTML: HTML stands for HyperText Markup Language. It is used to design the front end portion of web pages using markup language. 
+	- It acts as a skeleton for a website since it is used to make the structure of a website.
+
+- CSS: Cascading Style Sheets is a simply designed language intended to simplify the process of making web pages presentable. It is used to style our website.
+
+- JavaScript: JavaScript is a scripting language used to provide a dynamic behavior to our website.
+
+- Bootstrap: Bootstrap is a free and open-source tool collection for creating responsive websites and web applications. 
+	- It is the most popular CSS framework for developing responsive, mobile-first websites. 
+	- Responsive websites are those sites which change its element’s alignments, spacing according to the screen size of the device it is browsing. This is the technology called Bootstrap which makes it easier to design a responsive web site.
+
+Frontend Frameworks and Libraries:
+- AngularJS
+- React.js
+- jQuery
+- Bootstrap
+
+
+Backend Development
+-------------------
+- Backend is the server side of a website. It is the part of the website that users cannot see and interact. 
+- It is used to store and arrange data.
+
+- PHP: PHP is a server-side scripting language designed specifically for web development. 
+	- Framework : Laravel
+
+- Java: Java is one of the most popular and widely used programming language. It is highly scalable.
+	- Framework: Spring
+
+- Python: Python is a programming language that lets you work quickly and integrate systems more efficiently.
+	- Framework: Django, Flask
+
+- C#: Framework: .NET
+
+- Node.js: Node.js is an open source and cross-platform runtime environment for executing JavaScript code outside a browser.
+	- Framework: Express.js 
+
+- Storage:
+	Relational Database
+		- MySQL
+		- PostgreSQL
+	NoSQL Database
+		- MongoDB	
